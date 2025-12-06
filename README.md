@@ -1,22 +1,27 @@
-# 明日方舟电子通行认证 PCB
+# 明日方舟电子通行证
+## 这是什么？
 
 一款类似手机游戏《明日方舟》中的通行认证的电子挂牌。
+![[image-20251119004524288.png]]
+## 最新版本
+Ver.0.3
+## 版本信息&注释
 
-当前版本：Ver0.3（切换为F1C200S）
-
-本项目存放通行认证的PCB电路设计。PCB使用KiCAD 9设计。工艺参数参考嘉立创二层板，设计厚度为1mm。
-
-![image-20251119004524288](./README.assets/image-20251119004524288.png)
-
-
-
-![image-20251119004316917](./README.assets/image-20251119004316917.png)
-
-## 文件说明
-
-* production存放生产用的文件 包括gerber压缩的zip包，可直接下单打样。
-* bom存放HTML交互式bom
-
-## 开源协议
-
-CERN Open Hardware Licence Version 2 - Permissive
+## 对比上一个版本修改了什么？
+[ / ] SOC F1C100S → F1C200S
+[ + ] 增加屏幕支持，可在2种屏幕间自由选择
+[ + ] 增加SD卡槽
+## 开始复刻！GO!
+前往文档♿
+https://github.com（很显然还没写）
+前往硬件部分♿
+https://github.com（很显然还没写）
+前往软件部分♿
+https://github.com（很显然还没写）
+## 加入交流群！
+### 我们的QQ群
+https://qm.qq.com/q/anjgWYaYdG 
+或
+```
+1033668603
+```
