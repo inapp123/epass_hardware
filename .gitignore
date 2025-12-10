@@ -44,3 +44,6 @@ electric_pass_baseboard-backups
 bom
 production
 *.pdf
+
+# dumb macos
+.DS_Store
