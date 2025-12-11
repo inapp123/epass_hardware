@@ -16,7 +16,7 @@ Ver.0.3
 
 [ + ] 增加SD卡槽
 ## 开始复刻！GO!
-[[前往文档♿](https://github.com/inapp123/epass_hardware/tree/master/Manuel)]
+[[前往文档♿](https://github.com/inapp123/epass_hardware/tree/master/Manual)]
 
 [[前往软件部分♿](https://github.com/inapp123/epass_drm_app)]
 
