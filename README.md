@@ -5,7 +5,7 @@
 <img width="535" height="623" alt="image-20251119004524288" src="https://github.com/inapp123/epass_hardware/blob/master/Img/image-20251119004524288.png" />
 
 ## 最新版本
-Ver.0.3
+Ver.0.4
 
 ## 参数（规格）
 ### 主控 / 性能
