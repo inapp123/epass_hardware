@@ -11,8 +11,8 @@
 		(company "Shirogane Tsumugi")
 		(comment 1 "V0.3 添加屏幕兼容接口，添加SD卡槽，优化布线")
 		(comment 2 "V0.3.1 BUG修复")
-		(comment 3 "土豆、星语Studio、爱莉希雅、所有复刻群友的支持！")
-		(comment 4 "V0.3.2 生产优化。特别感谢：（不分先后）和光、薄云、烟雨、WXNA、")
+		(comment 3 "V0.3.2（V0.4） 生产优化。")
+		(comment 4 "V0.5 实现按键开关机、低电量关机、拉出i2s")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1896,6 +1896,17 @@
 		)
 		(uuid "3b5dff8a-a684-4b6b-a0e2-1aa9e493616d")
 	)
+	(text "特别感谢：（不分先后）和光、薄云、烟雨、WXNA、\n土豆、星语Studio、爱莉希雅、所有复刻群友的支持！\n"
+		(exclude_from_sim no)
+		(at 213.614 149.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e23329d9-2bd5-4f52-8d41-122624762220")
+	)
 	(junction
 		(at 143.51 125.73)
 		(diameter 0)
@@ -3187,6 +3198,68 @@
 			(justify left bottom)
 		)
 		(uuid "f925205a-7ea8-43d5-8966-dac77d73af52")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 87.63 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fbc3013-6229-4b8e-84cb-99fb7b4740aa")
+		(property "Netclass" "USB"
+			(at 88.3285 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7ab77bc-f320-4569-b592-6282118dbd60")
+		(property "Netclass" "USB"
+			(at 84.5185 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.77 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")

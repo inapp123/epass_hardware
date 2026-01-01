@@ -11,8 +11,8 @@
 		(company "Shirogane Tsumugi")
 		(comment 1 "V0.3 添加屏幕兼容接口，添加SD卡槽，优化布线")
 		(comment 2 "V0.3.1 BUG修复")
-		(comment 3 "土豆、星语Studio、爱莉希雅、所有复刻群友的支持！")
-		(comment 4 "V0.3.2 生产优化。特别感谢：（不分先后）和光、薄云、烟雨、WXNA、")
+		(comment 3 "V0.3.2（V0.4） 生产优化。")
+		(comment 4 "V0.5 实现按键开关机、低电量关机、拉出i2s")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:TP4056-42-ESOP8"
@@ -2960,6 +2960,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "GEK100-XX"
@@ -2968,6 +2969,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -3021,7 +3023,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3039,7 +3041,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3057,7 +3059,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,7 +3095,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3111,7 +3113,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3123,9 +3125,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "按键开关机（低压保护也靠这个切断）\n感谢群友：“你说得对”、星语Studio、土豆、量子！"
+	(text "按键开关机（低压保护也靠这个切断）\n感谢群友：“你说得对”、**星语Studio**\n、土豆、量子！"
 		(exclude_from_sim no)
-		(at 82.804 108.966 0)
+		(at 83.058 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
