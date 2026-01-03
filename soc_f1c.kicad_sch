@@ -2875,14 +2875,6 @@
 		(uuid "57260f7a-79a8-4a80-8ba2-bc31b5bf8276")
 	)
 	(no_connect
-		(at 234.95 111.76)
-		(uuid "7fd08554-3d1f-4a33-b03c-1311dc24f3d4")
-	)
-	(no_connect
-		(at 234.95 101.6)
-		(uuid "8bc8aca4-9ad7-4b2f-aff1-663940a2970d")
-	)
-	(no_connect
 		(at 163.83 46.99)
 		(uuid "da401619-ca7b-4c65-a1b0-605b71b23660")
 	)
@@ -5455,6 +5447,72 @@
 			(project "electric_pass_baseboard"
 				(path "/f7da003d-3223-4ca3-b214-78ea66e67380/59e867f0-f2e1-4d5b-b2ed-74e2587abb97"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cf7cb39-b4a4-4e7f-8bcc-9a7278464ebf")
+		(property "Reference" "#PWR0106"
+			(at 234.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff387281-4f53-42bf-a0cc-dfb1eb017768")
+		)
+		(instances
+			(project "electric_pass_baseboard"
+				(path "/f7da003d-3223-4ca3-b214-78ea66e67380/59e867f0-f2e1-4d5b-b2ed-74e2587abb97"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9930,6 +9988,72 @@
 			(project "electric_pass_baseboard"
 				(path "/f7da003d-3223-4ca3-b214-78ea66e67380/59e867f0-f2e1-4d5b-b2ed-74e2587abb97"
 					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb1a8cc6-c0b1-4e87-97a4-54d5c44b450a")
+		(property "Reference" "#PWR0105"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d45e9bbc-a700-433b-ab3f-6a1a461dc8a1")
+		)
+		(instances
+			(project "electric_pass_baseboard"
+				(path "/f7da003d-3223-4ca3-b214-78ea66e67380/59e867f0-f2e1-4d5b-b2ed-74e2587abb97"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

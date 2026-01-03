@@ -2749,6 +2749,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "*4/*5:开机默认背光状态\n贴R28: 默认开背光\n贴R7：默认关背光\n\n手动复刻建议贴R28 调试结束后贴R7\n批量直接R7+QC"
+		(exclude_from_sim no)
+		(at 194.056 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f4772fb-72ca-4373-bbc0-6e45e54ea193")
+	)
 	(text "RSense = 0.2 / I_LED \n       = 10 Ohm"
 		(exclude_from_sim no)
 		(at 226.568 128.778 0)
@@ -2771,7 +2781,7 @@
 	)
 	(text "EN Dimming with wide PWM Frequency\nRange: 1kHz to 200kHz\n"
 		(exclude_from_sim no)
-		(at 225.298 139.446 0)
+		(at 234.188 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2788,6 +2798,16 @@
 			)
 		)
 		(uuid "81bf3d20-2cbb-41a9-b3fe-a1564a5cda68")
+	)
+	(text "Alt.BOM:SY7200A"
+		(exclude_from_sim no)
+		(at 225.044 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95b5daed-ec09-4229-9c2d-94f01fbd01c6")
 	)
 	(text "SWAP color in F1C TCON"
 		(exclude_from_sim no)
@@ -4658,7 +4678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "shirogane:FPC-SMD_40P-P0.50_HC-FPC-0.5-40P-CSH20"
 			(at 134.366 157.988 0)
 			(effects
 				(font
@@ -5117,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "shirogane:D_SOD-323"
 			(at 243.84 93.345 0)
 			(effects
 				(font
@@ -5494,6 +5514,15 @@
 				(hide yes)
 			)
 		)
+		(property "特殊说明" "贴了默认开背光"
+			(at 200.66 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "973da0a1-a8ab-46b5-9f23-fb52ad44f001")
 		)
@@ -5628,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "特殊说明" "不贴装"
+		(property "特殊说明" "贴了默认关背光"
 			(at 200.66 127 90)
 			(effects
 				(font
