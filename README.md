@@ -1,23 +1,34 @@
-# 请在群内下载立创EDA 0.6版本，此版本有一些bug
-
 # 明日方舟电子通行认证 PCB
 
 一款类似手机游戏《明日方舟》中的通行认证的电子挂牌。
 
-当前版本：Ver0.3（切换为F1C200S）
+当前版本：Ver0.6
 
-本项目存放通行认证的PCB电路设计。PCB使用KiCAD 9设计。工艺参数参考嘉立创二层板，设计厚度为1mm。
+本项目存放通行认证的PCB电路设计。PCB为群友“你说得对”使用嘉立创EDA进行Layout。
 
-![image-20251119004524288](./README.assets/image-20251119004524288.png)
+USB布线比我的kicad好，而且只需要二层板。如果你需要查看原始kicad设计文件，请在左上角将分支切换为：onlykicad。
+
+设计。工艺参数参考嘉立创二层板，设计厚度为1mm。
+
+## 文件
+
+* 阻容封装0402：
+  * ProDoc__v0.6_0402_2026-01-24.epro2 PCB设计文件
+  * InteractiveBOM_0.6_0402_2026-1-24.html 交互式BOM
+
+* 阻容封装0603：
+  * ProDoc__v0.6_0603_2026-01-24.epro2 PCB设计文件
+  * InteractiveBOM_0.6_0603_2026-1-24.html 交互式BOM
 
 
+**最新嘉立创专业版打开，不知道什么意思就打0603**
 
-![image-20251119004316917](./README.assets/image-20251119004316917.png)
+## BOM链接
 
-## 文件说明
+感谢 星语Studio 整理！
 
-* production存放生产用的文件 包括gerber压缩的zip包，可直接下单打样。
-* bom存放HTML交互式bom
+0603版本：https://docs.qq.com/sheet/DTUNVSW9USXBOS3VJ?nlc=1&tab=8444d8
+0402版本：https://docs.qq.com/sheet/DTUNVSW9USXBOS3VJ?nlc=1&tab=msd95g
 
 ## 开源协议
 
